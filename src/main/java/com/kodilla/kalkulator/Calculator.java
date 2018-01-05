@@ -31,7 +31,7 @@ public class Calculator {
     public double subtractBFromA(double varA, double varB) {
         resultDiff=varA-varB;
         System.out.println(varB+" subtracted from  "+varA+" is "+ getResultDiff());
-        return varA - varB;
+        return getResultDiff();
     }
     public static void main(String[] args){
         Calculator calculator = new Calculator();
